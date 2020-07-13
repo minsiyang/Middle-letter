@@ -9,13 +9,13 @@ describe "get_middle" do
     expect(get_middle('of')).to eq 'of'
   end
 
-  # it "return 'a' when passed 'map' " do
-  #   expect(get_middle('map')).to eq 'a'
-  # end
+  it "return 'a' when passed 'map' " do
+    expect(get_middle('map')).to eq 'a'
+  end
 
-  # it "return 't' when passed 'testing' " do
-  #   expect(get_middle('testing')).to eq 't'
-  # end
+  it "return 't' when passed 'testing' " do
+    expect(get_middle('testing')).to eq 't'
+  end
 
   # it "return 'p' when passed 'happy' " do
   #   expect(get_middle('happy')).to eq 'p'
