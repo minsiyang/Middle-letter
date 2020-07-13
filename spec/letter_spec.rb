@@ -21,11 +21,11 @@ describe "get_middle" do
     expect(get_middle('happy')).to eq 'p'
   end
 
-  # it "return 'es' when passed 'test' " do
-  #   expect(get_middle('test')).to eq 'es'
-  # end
+  it "return 'es' when passed 'test' " do
+    expect(get_middle('test')).to eq 'es'
+  end
 
-  # it "return 'dd' when passed 'middle' " do
-  #   expect(get_middle('middle')).to eq 'dd'
-  # end
+  it "return 'dd' when passed 'middle' " do
+    expect(get_middle('middle')).to eq 'dd'
+  end
 end
