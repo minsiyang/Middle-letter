@@ -1,4 +1,5 @@
 def get_middle(word)
+  
   i = word.length/2
 
   if word.length.odd?
