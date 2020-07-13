@@ -12,7 +12,10 @@ get_middle("A") # => "A"
 get_middle("of") # => "of"
 
 
-word.length 
-
-"test".length = 4, index [1], index[2] 
-"testing".length = 7  index[3] 
+input      |    output  
+   "A"     |    "A"
+   "of"    |    "of"
+   "map"   |    "a"
+   "test"  |    "es"
+"testing"  |    "t"
+"middle"   |    "dd"
